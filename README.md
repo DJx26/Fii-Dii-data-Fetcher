@@ -1,0 +1,2 @@
+# Fii-Dii-data-Fetcher
+Fetch daily Fii/Dii data in Indian Stock Market
