@@ -1,2 +1,1 @@
-
 !pip install streamlit pyngrok nsepython pandas --quiet
