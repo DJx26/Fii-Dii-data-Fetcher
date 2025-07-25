@@ -1,0 +1,2 @@
+# ✅ Step 1: Install dependencies
+!pip install streamlit pyngrok nsepython pandas --quiet
