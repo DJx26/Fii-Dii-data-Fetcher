@@ -1,5 +1,4 @@
 from pyngrok import ngrok
-
 # Disconnect old tunnels
 for tunnel in ngrok.get_tunnels():
     ngrok.disconnect(tunnel.public_url)
