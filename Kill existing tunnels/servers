@@ -1,0 +1,2 @@
+!pkill streamlit || echo 'No existing Streamlit'
+!pkill ngrok || echo 'No existing Ngrok'
