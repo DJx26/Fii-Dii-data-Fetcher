@@ -4,7 +4,6 @@ from nsepython import nse_fiidii
 
 st.set_page_config(page_title="FII/DII Dashboard", layout="wide")
 st.title("📊 FII/DII Tracker - FundPulse India")
-
 # Fetch data
 try:
     data = nse_fiidii("pandas")
