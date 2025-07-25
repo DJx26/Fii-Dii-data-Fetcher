@@ -32,7 +32,6 @@ st.dataframe(data.style.format({
     'sellValue': '{:,.2f}',
     'netValue': '{:,.2f}'
 }))
-
 # Top 5 by Buy
 st.subheader("🏆 Top 5 Stocks by Buy Value")
 top_buy = data.sort_values(by='buyValue', ascending=False).head(5)
