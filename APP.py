@@ -6,6 +6,7 @@ st.set_page_config(page_title="FII/DII Dashboard", layout="wide")
 st.title("📊 FII/DII Tracker - FundPulse India")
 # Fetch data
 try:
+    
     data = nse_fiidii("pandas")
     st.write(data)  # Debug: Show raw data
 except Exception as e:
